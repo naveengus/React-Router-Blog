@@ -36,8 +36,8 @@ li {
 }
 
 .card {
-  /* width: 100%;
-  height: 100%; */
+  width: 100%;
+  height: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font-size: large;
 }
@@ -57,9 +57,10 @@ li {
 }
 .topnav li a {
   text-decoration: none;
+  color: inherit;
 }
-li .activelink {
-  text-decoration: none;
+li .activelink,
+li:active {
   border-bottom: 3px solid green;
   border-radius: 2px;
   padding-bottom: 17px;
@@ -71,11 +72,11 @@ li .activelink {
   li {
     margin: 3px;
     padding: 2px;
-    font-size: 8px;
+    font-size: 7px;
     color: black;
   }
   .guvi {
-    padding: 10px 0px 0px 20px;
+    padding: 10px 0px 0px 15px;
     margin-bottom: -10px;
     font-size: medium;
   }
@@ -94,7 +95,7 @@ li .activelink {
     margin-bottom: 10px;
     text-align: left;
     padding: 5px 15px 0px 15px;
-    font-size: small;
+    font-size: x-small;
   }
   .roll {
     color: rgb(105, 105, 105);
@@ -103,7 +104,7 @@ li .activelink {
   }
   li .activelink {
     border-bottom: 2px solid green;
-    padding-bottom: 8px;
+    padding-bottom: 9px;
   }
   hr {
     margin-top: -10px;

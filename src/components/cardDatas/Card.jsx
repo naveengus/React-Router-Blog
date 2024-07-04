@@ -6,7 +6,6 @@ function Card({ data }) {
       <div className="card">
         <img src={data.image}></img>
         <span className="roll">{data.roll}</span>
-
         <h3>{data.title}</h3>
       </div>
     </>
